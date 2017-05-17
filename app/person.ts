@@ -3,8 +3,6 @@ export interface Person{
     name: string;
     weight: number;
     height: number;
-    // it is optional because I know it
-    // doesn't exist in the API that we will
-    // consume in the next exercise :)
+    // este campo es opcional, no existe en la API
     profession?: string;
 }
